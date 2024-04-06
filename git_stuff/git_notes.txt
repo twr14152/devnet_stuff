@@ -1,3 +1,4 @@
+These notes are based on CLN git lession/lab
 
 Switch from main to new branch named bmf_code
 	
