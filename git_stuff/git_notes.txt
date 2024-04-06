@@ -14,3 +14,45 @@ Use git fetch to keep local repo up to date with remote repo
 Use git add ... to update what will be commited
 
 Use git restore ... to discard changes in working directory
+
+
+Merge example:
+
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git merge mycode
+Updating f98b4c2..0dfd306
+Fast-forward
+ git_stuff/git_notes.txt | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 git_stuff/git_notes.txt
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ ls -l
+total 8
+drwxr-xr-x 2 pi pi 4096 Apr  6 09:43 git_stuff
+-rw-r--r-- 1 pi pi  228 Apr  6 08:37 README.md
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git push
+Username for 'https://github.com': ################
+Password for 'https://####################
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 864 bytes | 216.00 KiB/s, done.
