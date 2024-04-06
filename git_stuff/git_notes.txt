@@ -11,4 +11,6 @@ Use git branch to see which branch you are on. * will tell you.
 
 Use git fetch to keep local repo up to date with remote repo
 
+Use git add ... to update what will be commited
 
+Use git restore ... to discard changes in working directory
