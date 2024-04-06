@@ -56,3 +56,29 @@ Counting objects: 100% (9/9), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (6/6), done.
 Writing objects: 100% (8/8), 864 bytes | 216.00 KiB/s, done.
+
+
+If you make changes to a file but decide you don't want to commit it. To restore the previous version use:
+$git checkout filename.txt  
+
+If you have made multiple changes to several files to restore "last known good state" issue:
+$git reset --hard
+
+To delete a branch if no longer needed.
+
+$ git branch
+* main
+  mycode
+$ git branch --delete --force mycode
+Deleted branch mycode (was 0dfd306).
+$
+
+To add file to working directory and commit change.
+$git add filename
+$git commit -m "Comment describing commit"
+
+
+To change git editor
+git config --global core.editor "vim"
+export GIT_EDITOR=vim
+
