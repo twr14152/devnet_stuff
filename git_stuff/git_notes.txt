@@ -1,0 +1,14 @@
+
+Switch from main to new branch named bmf_code
+	
+$git checkout -b bmf_code
+
+-b creates new branch and switches to it
+
+Use git checkout to switch between branches
+
+Use git branch to see which branch you are on. * will tell you.
+
+Use git fetch to keep local repo up to date with remote repo
+
+
