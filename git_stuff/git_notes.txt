@@ -82,3 +82,29 @@ To change git editor
 git config --global core.editor "vim"
 export GIT_EDITOR=vim
 
+
+Workflow:
+clone remote repo
+$ git clone <url>
+Create branch and checkout 
+$ git checkout -b newbranch
+Incremental commits
+$ git add filename.txt
+$ git commit -m "commit message"
+
+Initialize git in a repo
+$ git init
+
+Add all files you've made changes to
+$ git add .
+
+The -a or --all parameter tells git to automatically stage all the files you have modified
+$git commit --all -m "Adds initial commits"
+
+This command will add a remote named origin. This sets the remote origin as the upstream tracker.
+$git remote add origin https://github/twr14152/url.git
+
+this will push the initial commit to this new branch named main
+$git push --set-upstream origin main
+
+
