@@ -21,6 +21,8 @@ driven)
    	- Lots of info that may be relevant but not a lot that mapped back to anything
 - Ch.2 
 
+---
+
 - Use CLN online Study Materials
 	- 2024 will provide comments as I go.
 
