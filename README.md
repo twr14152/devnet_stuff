@@ -10,8 +10,8 @@
 driven)
 	- Lightly covered Software Architecture and Design 
 	- Functional/NonFunctional Requirements
-   	- Micro Services Patterns - 
-        - Service Oriented Archectures (SOA) - service registery
+   	- Micro Services Patterns 
+        - Service Oriented Archectures (SOA) service registery
 	- Event driven (Pub/Sub, Event streaming)
         - MVC
         - There was alot of info on the SDLC that doesnt map to any one criteria on the BP.
