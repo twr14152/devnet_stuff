@@ -14,9 +14,9 @@ driven)
    	- Service Oriented Archectures
    	    - service registery
    	- Event driven (Pub/Sub, Event streaming)
-        - MVC
+   	- MVC
    	- There was alot of info on the SDLC that doesnt map to any one criteria on the BP.
-        - Key topic are numerous but again they dont quite map to anything so...
+   	- Key topic are numerous but again they dont quite map to anything so...
    	- So I will get over it and move on.
 
 - Use CLN online Study Materials
