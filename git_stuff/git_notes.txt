@@ -12,6 +12,8 @@ Use git branch to see which branch you are on. * will tell you.
 
 Use git fetch to keep local repo up to date with remote repo
 
+use git pull to keep the local repo up-to-date with the remote repo
+
 Use git add ... to update what will be commited
 
 Use git restore ... to discard changes in working directory
@@ -108,4 +110,36 @@ $git remote add origin https://github/twr14152/url.git
 this will push the initial commit to this new branch named main
 $git push --set-upstream origin main
 
+--------
+git pull vs git fetch
 
+$ git fetch
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 21 (delta 7), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (21/21), done.
+From https://github.com/twr14152/devnet_stuff
+   80e48ac..751ced6  main       -> origin/main
+$ ls -l
+total 8
+drwxr-xr-x 2 pi pi 4096 Apr  6 10:47 git_stuff
+-rw-r--r-- 1 pi pi 1026 Apr  6 19:09 README.md
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 7 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+$ git pull
+Updating 80e48ac..751ced6
+Fast-forward
+ README.md | 33 ++++++++++++++++++---------------
+ 1 file changed, 18 insertions(+), 15 deletions(-)
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ giti status
+-bash: giti: command not found
+pi@rasp4:~/Coding/devnet_folder/devnet_stuff $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
