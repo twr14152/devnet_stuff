@@ -12,7 +12,7 @@
 	- There was a lot of terminology and nested terminalogy at that.
 	- Definitely can see potential for tricky questions	
 	- Alot of the terminology gets used in networking but there more granularity here
-	- The thought is the precision of there wording will provide more clarity to design and build
+	- The thought is the precision of their wording will provide more clarity to the non-functional requirements
 
 
 ---
