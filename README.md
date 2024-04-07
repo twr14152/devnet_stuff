@@ -15,9 +15,9 @@ driven)
    	    - service registery
    	- Event driven (Pub/Sub, Event streaming)
         - MVC
-        - There was alot of info on the SDLC that doesnt map to any one criteria on the BP.
+   	- There was alot of info on the SDLC that doesnt map to any one criteria on the BP.
         - Key topic are numerous but again they dont quite map to anything so...
-        - So I will get over it and move on.
+   	- So I will get over it and move on.
 
 - Use CLN online Study Materials
 	- 2024 will provide comments as I go.
