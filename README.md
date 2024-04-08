@@ -17,7 +17,7 @@
   	- Overall this chapter wasnt a bad read there's a lot of vocaulary but i think its necessary tool to really nail down non-functional requirements
   	- Definitely something I would review before taking the test. 
 - Ch.3
-	- 
+	- PH
 
 ---
 
