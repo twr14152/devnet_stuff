@@ -8,11 +8,14 @@
 	- That chapter seems to simply be setting the stage for later ones.
 	- Comparing it to the exam blue print i think it lightly touched on sec(1.9)
 - Ch.2 
-	- This chapter really started mapping to section 1.0 (1.1 - 1.9)
+	- This chapter really started mapping to section 1.0 (1.1 - 1.9) of
 	- There was a lot of terminology and nested terminalogy at that.
-	- Definitely can see potential for tricky questions	
-	- Alot of the terminology gets used in networking but there more granularity here
-	- The thought is the precision of their wording will provide more clarity to the non-functional requirements
+	- Definitely can see potential for tricky questions re. Quality Attributes in ISO/IEC 25010	
+ 	- Modularity (low coupling vs high cohesion)
+  	- HA and Resilency in application design (Horizontal and Verticle scaling)
+  	- The pearson exam for that section was pretty easy
+  	- Overall this chapter wasnt a bad read there's a lot of vocaulary but i think its necessary tool to really nail down non-functional requirements
+
 
 
 ---
