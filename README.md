@@ -19,7 +19,7 @@
 - Ch.3
 	- This supposedly mapped to 1.4, 1.5, 1.6, 1.8 of exam blue print
  	- After reading this it seems like a light treatment of each section
-  	- I think the keyword 'evaluate' in the topics may allow for the shallow coverage
+  	- I think the keyword 'evaluate' in the topics may allow for the broad coverage
   	- OOP SOLID principles were covered in this chapter and it seems it may be considered foundational to these topics but it doesnt explicitly map to any one category
   	- These first three chapters will definitely require rereading
   	- Because of the emphasis of some of the topics and the recommended reading throughout and at the end of the chapters will probably investigate some of those references
