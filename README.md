@@ -22,7 +22,7 @@
   	- I think the keyword 'evaluate' in the topics may allow for the shallow coverage
   	- OOP SOLID principles were covered in this chapter and it seems it maybe considered foundational to these topics but it doesnt explicitly map to any one category
   	- These first three chapters will definitely require rereading.
-  	- Because of the emphasis of some of the topics and the recommended reading throughout and at the end of the chapters wil probably investigate some of those references
+  	- Because of the emphasis of some of the topics and the recommended reading throughout and at the end of the chapters will probably investigate some of those references
 
 ---
 
